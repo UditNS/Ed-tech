@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="element-with-background">
+    <header
+      class="py-3 px-10 flex items-center justify-between border-b border-gray-600 bg-transparent/50"
+    >
+      <!-- Logo -->
+      <a href="index.html" class="flex items-center">
+        <img
+          src="Images/360_F_434377738_zMRpKb6dJTUMjAa98aeDzUpN4PKtNbcC.jpg"
+          alt="Logo"
+          class="h-8 mr-4"
+        />
+        <span class="text-white text-xl font-semibold">Study Freak</span>
+      </a>
+
+      <div class="space-x-6">
+        <a href="course.html" class="text-white hover:text-yellow-400"
+          >Courses</a
+        >
+        <!-- Drop down menu -->
+        <a href="notes.html" class="text-white hover:text-yellow-400">Notes</a>
+        <a href="contactUs.html" class="text-white hover:text-yellow-400"
+          >Contact Us</a
+        >
+      </div>
+
+      <!-- Navigation Links -->
+      <nav class="flex items-center space-x-6">
+        <a
+          href="login.html"
+          class="px-4 py-2 text-white border border-gray-200 hover:text-gray-200 rounded-lg duration-200 hover:scale-95"
+          >Login</a
+        >
+        <a
+          href="signup.html"
+          class="px-4 py-2 text-white border border-gray-200 hover:text-gray-200 rounded-lg duration-200 hover:scale-95"
+          >Sign Up</a
+        >
+      </nav>
+    </header>
+    <div class="flex justify-center items-center h-screen">
+      <!-- Contact Form Container -->
+      <div
+        class="flex w-full max-w-screen-lg bg-transparent/50 text-white rounded-xl shadow-xl"
+      >
+        <!-- Contact Form -->
+        <div class="w-1/2 p-8">
+          <h2 class="text-3xl font-bold mb-4 text-gray-200">Contact Us</h2>
+          <form>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+              <div>
+                <label
+                  for="first_name"
+                  class="block text-gray-300 font-bold mb-2"
+                  >First Name</label
+                >
+                <input
+                  type="text"
+                  id="first_name"
+                  name="first_name"
+                  class="w-full px-4 py-2 border rounded-lg bg-transparent/10"
+                />
+              </div>
+              <div>
+                <label
+                  for="last_name"
+                  class="block text-gray-300 font-bold mb-2"
+                  >Last Name</label
+                >
+                <input
+                  type="text"
+                  id="last_name"
+                  name="last_name"
+                  class="w-full px-4 py-2 border rounded-lg bg-transparent/10"
+                />
+              </div>
+              <div>
+                <label for="email" class="block text-gray-300 font-bold mb-2"
+                  >Email Address</label
+                >
+                <input
+                  type="email"
+                  id="email"
+                  name="email"
+                  class="w-full px-4 py-2 border rounded-lg bg-transparent/10"
+                />
+              </div>
+              <div>
+                <label for="phone" class="block text-gray-300 font-bold mb-2"
+                  >Phone Number</label
+                >
+                <input
+                  type="tel"
+                  id="phone"
+                  name="phone"
+                  class="w-full px-4 py-2 border rounded-lg bg-transparent/10"
+                />
+              </div>
+              <div class="col-span-2">
+                <label for="message" class="block text-gray-300 font-bold mb-2"
+                  >Message</label
+                >
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  class="w-full px-4 py-2 border rounded-lg bg-transparent/10"
+                ></textarea>
+              </div>
+            </div>
+            <button
+              type="submit"
+              class="md:mt-16 px-4 py-2 bg-yellow-300 font-bold text-lg rounded-lg border border-black hover:scale-105 duration-200 text-black hover:text-gray-800"
+            >
+              Submit
+            </button>
+          </form>
+        </div>
+        <!-- Connect info-->
+        <div
+          class="w-1/2 hidden md:flex flex-col items-center justify-center space-y-10"
+        >
+          <div
+            class="flex flex-col items-start justify-center text-gray-400 bg-slate-900/80 max-w-96 px-10 py-6 rounded-xl"
+          >
+            <h1 class="font-bold text-2xl">Chat with us</h1>
+            <p>Our team is here to help!</p>
+            <p>Connect with us on info@studyfreak.com</p>
+          </div>
+
+          <div
+            class="flex flex-col items-start justify-center text-gray-400 bg-slate-900/90 w-96 px-10 py-6 rounded-xl"
+          >
+            <h1 class="font-bold text-2xl">Call us</h1>
+            <p>Mon-Fri from 10 am to 5 pm</p>
+            <p>+91 12345-67890</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="bg-transparent/50 text-white py-8 mt-24">
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center">
+          <p>&copy; 2024 Study Freak. All rights reserved.</p>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-300">Privacy Policy</a></li>
+            <li>
+              <a href="#" class="hover:text-gray-300">Terms of Service</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
