@@ -3,21 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Study Freak</title>
+    <title>E-Learning</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body class="bg-[#000814]">
     <header
-      class="py-3 px-10 flex items-center justify-between border-b border-gray-600"
+      class="py-3 px-10 flex items-center justify-between border-b border-gray-600 fixed w-full"
     >
       <!-- Logo -->
       <a href="index.html" class="flex items-center">
         <img
-          src="Images/360_F_434377738_zMRpKb6dJTUMjAa98aeDzUpN4PKtNbcC.jpg"
-          alt="Logo"
+          src="Images/360_F_434377738_zMRpKb6dJTUMjAa98aeDzUpN4PKtNbcC-Dwo5MmCA.jpeg"
+          alt=""
           class="h-8 mr-4"
         />
-        <span class="text-white text-xl font-semibold">Study Freak</span>
+        <span class="text-white text-xl font-semibold">E-Learning</span>
       </a>
 
       <div class="space-x-6">
@@ -25,7 +25,16 @@
           >Courses</a
         >
         <!-- Drop down menu -->
-        <a href="notes.html" class="text-white hover:text-yellow-400">Notes</a>
+        <a
+          href="class10th.html"
+          class="text-white hover:text-yellow-400"
+          >Class 10 Notes</a
+        >
+        <a
+          href="class12th.html"
+          class="text-white hover:text-yellow-400"
+          >Class 12th Notes</a
+        >
         <a href="contactUs.html" class="text-white hover:text-yellow-400"
           >Contact Us</a
         >
@@ -47,7 +56,7 @@
     </header>
     <div class="flex">
       <!-- Signup Form Container -->
-      <div class="flex w-full space-x-44 pt-24 pl-16">
+      <div class="flex w-full space-x-44 pt-32 pl-16">
         <!-- Signup Options -->
         <div class="text-gray-100 p-8 max-w-xl">
           <h2 class="text-3xl font-bold mb-1">Welcome back to Study Freak</h2>
@@ -81,7 +90,9 @@
                 placeholder="Enter password"
               />
             </div>
-            <a href="forgotPassword.html" class="mt-2 flex justify-end text-red-600 font-semibold"
+            <a
+              href="forgotPassword.html"
+              class="mt-2 flex justify-end text-red-600 font-semibold"
               >Forgot Password</a
             >
             <button
@@ -97,10 +108,27 @@
           <img
             src="Images/login.gif"
             alt="Signup Image"
-            class="max-w-2xl h-full rounded-lg object-cover shadow-xl shadow-gray-700"
+            class="w-9/12 h-full rounded-lg object-cover shadow-xl shadow-gray-700"
           />
         </div>
       </div>
     </div>
+
+    <!-- Footer -->
+
+    <footer class="bg-gray-900 text-white py-8 mt-24">
+      <div class="container mx-auto px-4">
+        <div class="flex justify-between items-center">
+          <p>&copy; 2024 E-Learning. All rights reserved.</p>
+          <p class="font-mono">Developed by Akash Maurya</p>
+          <ul class="flex space-x-4">
+            <li><a href="#" class="hover:text-gray-300">Privacy Policy</a></li>
+            <li>
+              <a href="#" class="hover:text-gray-300">Terms of Service</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>
