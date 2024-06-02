@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>E-Learning</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="Images/logo.webp">
   </head>
   <body class="element-with-background bg-black">
     <header
@@ -13,7 +14,7 @@
       <!-- Logo -->
       <a href="index.html" class="flex items-center">
         <img
-          src="Images/360_F_434377738_zMRpKb6dJTUMjAa98aeDzUpN4PKtNbcC-Dwo5MmCA.jpeg"
+          src="Images/logo.webp"
           alt=""
           class="h-8 mr-4"
         />
@@ -63,7 +64,8 @@
         <!-- Contact Form -->
         <div class="w-1/2 p-8">
           <h2 class="text-3xl font-bold mb-4 text-gray-200">Contact Us</h2>
-          <form>
+          <form action="https://api.web3forms.com/submit" method="POST">
+            <input type="hidden" name="access_key" value="d687bee4-f93c-4281-b3af-bd0fa6aad838">
             <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
               <div>
                 <label
